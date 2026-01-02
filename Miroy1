@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Miroy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="logo">Miroy</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>MIROY</h1>
+    <p>Streetwear inspired by speed & style</p>
+  </section>
+
+  <!-- PRODUCT -->
+  <section class="product">
+    <img src="shirt.png" alt="Miroy T-Shirt">
+    <div class="product-info">
+      <h2>MIROY PALM CAR TEE</h2>
+      <p>Premium cotton t-shirt featuring a clean automotive graphic with palm tree detail.</p>
+      <span class="price">$40.00</span>
+      <button>Buy Now</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Miroy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
