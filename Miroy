@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Miroy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="logo">Miroy</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>MIROY</h1>
+    <p>Streetwear inspired by speed & style</p>
+  </section>
+
+  <!-- PRODUCT -->
+  <section class="product">
+    <img src="shirt.png" alt="Miroy T-Shirt">
+    <div class="product-info">
+      <h2>MIROY PALM CAR TEE</h2>
+      <p>Premium cotton t-shirt featuring a clean automotive graphic with palm tree detail.</p>
+      <span class="price">$40.00</span>
+      <button>Buy Now</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Miroy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #111;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* PRODUCT */
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.product img {
+  width: 350px;
+}
+
+.product-info {
+  max-width: 400px;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 12px;
+  color: #777;
+}
